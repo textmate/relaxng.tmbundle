@@ -43,7 +43,7 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>entity.other.attribute.rnc</string>
+					<string>entity.other.attribute-name.rnc</string>
 				</dict>
 			</dict>
 			<key>match</key>
@@ -62,7 +62,7 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>entity.other.element.rnc</string>
+					<string>entity.name.type.element.rnc</string>
 				</dict>
 			</dict>
 			<key>match</key>
@@ -116,7 +116,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>entity.other.grammar_production.rnc</string>
+					<string>entity.name.section.grammar_production.rnc</string>
 				</dict>
 			</dict>
 			<key>match</key>
