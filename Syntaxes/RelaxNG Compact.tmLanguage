@@ -71,10 +71,37 @@
 			<string>meta.declaration.element.rnc</string>
 		</dict>
 		<dict>
-			<key>match</key>
-			<string>#.*$</string>
-			<key>name</key>
-			<string>comment.hash.rnc</string>
+			<key>begin</key>
+			<string>(^[ \t]+)?(?=#)</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.whitespace.comment.leading.rnc</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>(?!\G)</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>begin</key>
+					<string>#</string>
+					<key>beginCaptures</key>
+					<dict>
+						<key>0</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.definition.comment.rnc</string>
+						</dict>
+					</dict>
+					<key>end</key>
+					<string>\n</string>
+					<key>name</key>
+					<string>comment.line.number-sign.rnc</string>
+				</dict>
+			</array>
 		</dict>
 		<dict>
 			<key>begin</key>
