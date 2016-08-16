@@ -6,6 +6,8 @@
 	<array>
 		<string>rnc</string>
 	</array>
+	<key>keyEquivalent</key>
+	<string>^~R</string>
 	<key>name</key>
 	<string>RelaxNG Compact</string>
 	<key>patterns</key>
